@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="ssh://inspur@10.131.252.141:22/home/inspur/anaconda3/bin/python" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="inspur@10.131.252.141:22" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="labortory_inspur">
+      <paths name="inspur@10.131.252.141:22">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/inspur/li" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="ssh://inspur@10.131.252.141:22/home/inspur/anaconda3/bin/python">
+      <paths name="root@118.25.99.101:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/inspur/li" local="$PROJECT_DIR$" />
+            <mapping deploy="/root/sftp_project" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
