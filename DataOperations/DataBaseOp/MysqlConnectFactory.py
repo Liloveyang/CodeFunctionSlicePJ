@@ -11,6 +11,7 @@ import pymysql
 class MysqlConnectFactory(object):
     INFO_1 = {'MYSQL_IPADDRESS':"10.141.221.87",'MYSQL_USER':"root",'MYSQL_PASSWORD':"root",'MYSQL_DATABASENAME':"domainkg"}
     INFO_2 = {'MYSQL_IPADDRESS': "10.141.221.85", 'MYSQL_USER': "root", 'MYSQL_PASSWORD': "root",'MYSQL_DATABASENAME': "poi_soinfo_zfy"}
+    INFO_3 = {'MYSQL_IPADDRESS': "10.131.252.160", 'MYSQL_USER': "root", 'MYSQL_PASSWORD': "root",'MYSQL_DATABASENAME': "stackoverflow"}
 
     @classmethod
     def get_connect(cls,connect_info):
